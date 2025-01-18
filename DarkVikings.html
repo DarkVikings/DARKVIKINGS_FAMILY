@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DARK VIKINGS</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" type="image/x-icon" href="index_favicon.ico">
+		<style>
+			body,h1 {
+			font-family: "Raleway", sans-serif;
+			}
+			
+			body, html {
+				height: 100%;
+			}
+			
+			#background-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+main {
+    background-color: #1a1a1a; /* Grigio scuro elegante */
+    margin-top: 100vh;
+    position: relative;
+}
+		</style>
+	</head>
+	<body>
+		<!-- Background Image -->
+		<img id="background-image" src="images/logo.jpg" alt="Background Image">
+
+		<!-- Navbar -->
+		<div class="w3-top">
+			<!-- Navbar schermi medi/grandi -->
+			<div class="w3-bar" id="myNavbar">
+				<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+					<i class="fa fa-bars"></i>
+				</a>
+				<a href="DarkVikings.html" class="w3-bar-item w3-button">HOME</a>
+				<a href="Servizi.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Servizi</a>
+				<a href="Contatti.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Contatti</a>
+							</div>
+
+			<!-- Navbar schermi piccoli -->
+			<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+				<a href="Servizi.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Servizi</a>
+				<a href="Contatti.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Contatti</a>
+				
+			</div>
+		</div>
+		
+	<!-- Inizio pagina -->
+		<!-- Background con parallax -->
+			<!-- Animazione testo inizio pagina -->
+			<div class="w3-display-middle">
+				<h1 class="w3-xxlarge w3-animate-top w3-animate-opacity w3-green w3-padding-large"><span class="w3-hide-small"> </span>DARK VIKINGS</h1>
+				<hr class="w3-border-grey" style="margin:auto;width:40%">
+				<p class="w3-large w3-center w3-animate-top w3-animate-opacity w3-white w3-padding-large">Who are we?</p>
+			</div>
+		<main>
+	<!-- Contenuti -->
+		<!-- Container -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Animazione di rotazione */
+        @keyframes rotateText {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Animazione di vibrazione (saltellante) */
+        @keyframes vibrateText {
+            0% {
+                transform: translateX(0);
+            }
+            25% {
+                transform: translateX(-5px);
+            }
+            50% {
+                transform: translateX(5px);
+            }
+            75% {
+                transform: translateX(-5px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        /* Animazione di movimento da sinistra a destra */
+        @keyframes moveFromLeft {
+            0% {
+                transform: translateX(-100%); /* Inizia fuori schermo a sinistra */
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateX(0); /* Si sposta alla posizione finale */
+                opacity: 1;
+            }
+        }
+
+        /* Applicare le animazioni: rotazione, vibrazione, movimento da sinistra */
+        .rotate-vibrate-text {
+            display: inline-block;
+            animation: rotateText 5s infinite linear, 
+                      vibrateText 1s infinite, 
+                      moveFromLeft 10s ease-in-out forwards;
+            animation-iteration-count: infinite; /* Ripete l'animazione all'infinito */
+        }
+
+        /* Testo principale */
+        .rotate-vibrate-text h1 {
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+<body style="background-color: #333;">
+
+<div class="w3-content w3-container w3-padding-64">
+    <div class="jw-element-imagetext-text">
+        <div style="text-align: center; font-family: 'Georgia', serif; line-height: 1.8; color: #f0f0f0;">
+            <!-- Aggiunta della classe rotate-vibrate-text con animazioni -->
+            <h1 class="rotate-vibrate-text" style="font-size: 2.5em; font-weight: bold; margin-bottom: 20px;">
+                Benvenuti in <span style="color: #ea280c;">DARKVIKINGS®</span>
+            </h1>
+            <h2 style="font-size: 1.8em; font-weight: 600; margin-bottom: 15px; color: #f0f0f0;">History</h2>
+            <p style="font-size: 1.2em; margin-bottom: 10px; color: #f0f0f0;">
+                <em>Siamo un team di esperti attivi dal lontano <span style="color: #ea280c; font-weight: bold;">2013</span>,</em>
+            </p>
+            <p style="font-size: 1.2em; margin-bottom: 10px; color: #f0f0f0;">
+                <em>Abbiamo sempre cercato di puntare al top, come infatti ora contiamo</em>
+            </p>
+            <p style="font-size: 1.2em; margin-bottom: 10px; color: #f0f0f0;">
+                <em><span style="color: #ea280c; font-weight: bold;">3 nostri clan</span> per dare a tutti l'opportunità di crescere.</em>
+            </p>
+        </div>
+    </div>
+<!-- Sezione Staff -->
+<div class="w3-content w3-container w3-padding-64">
+    <h2 style="text-align: center; font-size: 2em; font-weight: bold; color: #f0f0f0; margin-bottom: 20px;">Il Nostro Staff</h2>
+    <p style="text-align: center; font-size: 1.2em; color: #f0f0f0;">
+        Siamo orgogliosi di presentarvi il cuore pulsante del nostro clan, un gruppo di leader straordinari che guidano il nostro viaggio verso il successo.
+    </p>
+    <div style="text-align: center; font-family: 'Georgia', serif; line-height: 1.8; margin-top: 20px;">
+        <!-- Nomi con contorno luminoso pulsante -->
+        <p class="staff-names" style="font-size: 1.5em; font-weight: bold; color: #fff; margin: 10px;">
+            <span class="neon-text">Wiz</span>, <span class="neon-text">Mattiavikingo</span>, <span class="neon-text">Giuseppe</span>,
+            <span class="neon-text">Sandstorm</span>, <span class="neon-text">Andrea</span>,
+            <span class="neon-text">Matteos</span>, <span class="neon-text">Tony</span>, <span class="neon-text">Ultra</span>
+        </p>
+    </div>
+</div>
+
+<style>
+    /* Animazione di luminosità pulsante */
+    @keyframes pulseGlow {
+        0% {
+            text-shadow: 0 0 5px #ea280c, 0 0 10px #ea280c, 0 0 20px #ff4500, 0 0 30px #ff6347, 0 0 40px #ff6347;
+        }
+        50% {
+            text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500, 0 0 30px #ff6347, 0 0 50px #ff7f50, 0 0 60px #ff7f50;
+        }
+        100% {
+            text-shadow: 0 0 5px #ea280c, 0 0 10px #ea280c, 0 0 20px #ff4500, 0 0 30px #ff6347, 0 0 40px #ff6347;
+        }
+    }
+
+    /* Contorno luminoso ai nomi dello staff */
+    .neon-text {
+        color: #ea280c;
+        display: inline-block;
+        animation: pulseGlow 2s infinite; /* Durata di 2 secondi in loop */
+    }
+
+    .staff-names span {
+        margin: 0 5px;
+    }
+
+</style>
+<!-- Sezione War -->
+<div class="w3-content w3-container w3-padding-64">
+    <h2 style="text-align: center; font-size: 2em; font-weight: bold; color: #f0f0f0; margin-bottom: 20px;">Le Nostre War</h2>
+    <p style="text-align: center; font-size: 1.2em; color: #f0f0f0;">
+        Le War sono il momento in cui mostriamo il nostro vero potenziale. Ogni battaglia è una sfida che ci spinge a dare il massimo.
+    </p>
+    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+        <!-- Prima immagine -->
+        <div style="text-align: center;">
+            <img src="images/WAR.jpg" alt="WAR" style="max-width: 100%; height: auto; border-radius: 10px;">
+            <p style="font-size: 1em; color: #ccc; margin-top: 10px;">Immagine della nostra ultima epica War.</p>
+        </div>
+        <!-- Seconda immagine -->
+        <div style="text-align: center;">
+            <img src="images/CWL.jpg" alt="CWL" style="max-width: 100%; height: auto; border-radius: 10px;">
+            <p style="font-size: 1em; color: #ccc; margin-top: 10px;">Un altro momento memorabile delle nostre War.</p>
+        </div>
+    </div>
+</div>
+<!-- Sezione Capitale -->
+<div class="w3-content w3-container w3-padding-64">
+    <h2 style="text-align: center; font-size: 2em; font-weight: bold; color: #f0f0f0; margin-bottom: 20px;">La Nostra Capitale</h2>
+    <p style="text-align: center; font-size: 1.2em; color: #f0f0f0;">
+       Capitale Dark Vikings, abbiamo esperti di capitale e momentaneamente puntiamo a tornare titano/leggenda a dominare di nuovo clash of clans.
+    </p>
+    <div style="text-align: center; margin-top: 20px;">
+        <img src="images/CAPITAL.jpg" alt="CAPITAL" style="max-width: 100%; height: auto; border-radius: 10px;">
+        <p style="font-size: 1em; color: #ccc; margin-top: 10px;">La nostra magnifica capitale, simbolo di forza e unità.</p>
+    </div>
+</div>
+<!-- Sezione Scalata Trofei -->
+<div class="w3-content w3-container w3-padding-64">
+    <h2 style="text-align: center; font-size: 2em; font-weight: bold; color: #f0f0f0; margin-bottom: 20px;">La Scalata Trofei</h2>
+    <p style="text-align: center; font-size: 1.2em; color: #f0f0f0;">
+        La scalata trofei è la nostra sfida quotidiana. Con costanza e strategia, puntiamo a conquistare i vertici della classifica globale e italiana giorno dopo giorno.
+    </p>
+    <div style="text-align: center; margin-top: 20px;">
+        <img src="images/TROPHY.jpg" alt="TROPHY" style="max-width: 100%; height: auto; border-radius: 10px;">
+        <p style="font-size: 1em; color: #ccc; margin-top: 10px;">Immagine dei nostri incredibili successi in classifica.</p>
+    </div>
+</div>
+<!-- Pulsante Cliccabile -->
+		<div style="text-align: center; margin-top: 20px;">
+		 
+
+    <a href="https://link.clashofclans.com/it?action=OpenClanProfile&tag=98RJYVPV" 
+       class="w3-button w3-green w3-large w3-round w3-padding-large" 
+       style="font-size: 1.2em; text-decoration: none; color: white;">
+       Visita il Clan DARK VIKINGS    </a>
+</div>
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recensioni a Stelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #333;
+            color: #f0f0f0;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #fff;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #f0f0f0;
+        }
+
+        .stars {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .star {
+            font-size: 2em;
+            color: #ccc;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .star:hover,
+        .star.active {
+            color: #d4af37;
+        }
+
+        .star:hover ~ .star {
+            color: #ccc;
+        }
+
+        .result {
+            text-align: center;
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #fff;
+        }
+
+        .summary {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 1.2em;
+            background-color: #444;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .summary h2 {
+            font-size: 1.5em;
+            color: #f0f0f0;
+            margin-bottom: 10px;
+        }
+
+        .summary p {
+            font-size: 1em;
+            color: #f0f0f0;
+        }
+
+        .comment-box {
+            margin-top: 20px;
+            background-color: #444;
+            padding: 10px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 500px;
+            text-align: left;
+        }
+
+        .comment-box textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 1em;
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #555;
+            border-radius: 5px;
+        }
+
+        .comment-box button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #d4af37;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lascia una Recensione</h1>
+    <p>Seleziona il numero di stelle che desideri assegnare:</p>
+
+    <!-- Stelle -->
+    <div class="stars">
+        <span class="star" data-value="1">★</span>
+        <span class="star" data-value="2">★</span>
+        <span class="star" data-value="3">★</span>
+        <span class="star" data-value="4">★</span>
+        <span class="star" data-value="5">★</span>
+    </div>
+
+    <!-- Risultato -->
+    <div class="result">Nessuna valutazione selezionata.</div>
+
+    <!-- Riassunto delle valutazioni -->
+    <div class="summary">
+        <h2>Riassunto delle Recensioni</h2>
+        <p><span id="count-1">0</span> utenti hanno dato 1 stella</p>
+        <p><span id="count-2">0</span> utenti hanno dato 2 stelle</p>
+        <p><span id="count-3">0</span> utenti hanno dato 3 stelle</p>
+        <p><span id="count-4">0</span> utenti hanno dato 4 stelle</p>
+        <p><span id="count-5">0</span> utenti hanno dato 5 stelle</p>
+        <p>Media recensioni: <span id="average-rating">0.0</span> stelle</p>
+    </div>
+
+    <script>
+        const stars = document.querySelectorAll('.star');
+        const result = document.querySelector('.result');
+        const summaryCounts = {
+            1: document.getElementById('count-1'),
+            2: document.getElementById('count-2'),
+            3: document.getElementById('count-3'),
+            4: document.getElementById('count-4'),
+            5: document.getElementById('count-5'),
+        };
+        const averageRatingDisplay = document.getElementById('average-rating');
+
+        function getReviewData() {
+            const storedData = localStorage.getItem('reviewData');
+            return storedData ? JSON.parse(storedData) : { counts: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 }, userHasVoted: false, userVote: null };
+        }
+
+        function saveReviewData(data) {
+            localStorage.setItem('reviewData', JSON.stringify(data));
+        }
+
+        function calculateAverage(counts) {
+            let totalVotes = 0;
+            let sum = 0;
+            for (let rating in counts) {
+                const count = counts[rating];
+                totalVotes += count;
+                sum += count * rating;
+            }
+            return totalVotes === 0 ? 0 : (sum / totalVotes).toFixed(1);
+        }
+
+        function updateSummary(data) {
+            const { counts } = data;
+            for (let rating in counts) {
+                summaryCounts[rating].textContent = counts[rating];
+            }
+            averageRatingDisplay.textContent = calculateAverage(counts);
+        }
+
+        const reviewData = getReviewData();
+        updateSummary(reviewData);
+
+        if (reviewData.userHasVoted) {
+            result.textContent = `Hai già selezionato ${reviewData.userVote} stelle. Grazie per il tuo feedback!`;
+            stars.forEach(star => {
+                if (parseInt(star.dataset.value) <= reviewData.userVote) {
+                    star.classList.add('active');
+                }
+            });
+        }
+
+        stars.forEach(star => {
+            star.addEventListener('click', () => {
+                const rating = parseInt(star.dataset.value);
+
+                if (reviewData.userHasVoted) {
+                    // Rimuovi il voto precedente
+                    reviewData.counts[reviewData.userVote]--;
+                }
+
+                reviewData.counts[rating]++;
+                reviewData.userHasVoted = true;
+                reviewData.userVote = rating;
+                saveReviewData(reviewData);
+                updateSummary(reviewData);
+
+                result.textContent = `Hai selezionato ${rating} stelle. Grazie per il tuo feedback!`;
+
+                stars.forEach(s => s.classList.remove('active'));
+                star.classList.add('active');
+                let previousSiblings = star.previousElementSibling;
+                while (previousSiblings) {
+                    previousSiblings.classList.add('active');
+                    previousSiblings = previousSiblings.previousElementSibling;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

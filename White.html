@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WHITE VIKINGS</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" type="image/x-icon" href="index_favicon.ico">
+		<style>
+			body,h1 {
+				font-family: "Raleway", sans-serif;
+			}
+			
+			body, html {
+				height: 100%;
+				background-color: #000; /* Set the background color to black */
+				margin: 0;
+				padding: 0;
+			}
+			
+			#background-image {
+				width: 553px;  /* Set the width to 553px */
+				height: 882px;  /* Set the height to 882px */
+				object-fit: cover;  /* Ensure the image covers the container without distorting */
+				position: fixed;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);  /* Center the image */
+				z-index: -1;
+			}
+			
+			main {
+				background-color: #1a1a1a; /* Grigio scuro elegante */
+				margin-top: 100vh;
+				position: relative;
+			}
+
+			/* Aggiungi le frecce */
+			.arrow {
+				position: fixed;
+				top: 10px;
+				font-size: 24px;
+				color: #fff;
+				text-decoration: none;
+			}
+
+			.arrow-left {
+				left: 10px;
+			}
+
+			.arrow-right {
+				right: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Background Image -->
+		<img id="background-image" src="images/White.jpg" alt="Background Image">
+
+		<!-- Frecce di navigazione -->
+		<a href="DarkVikings.html" class="arrow arrow-left">
+			<i class="fa fa-arrow-left"></i> Home
+		</a>
+		<a href="Contatti.html" class="arrow arrow-right">
+			Contatti <i class="fa fa-arrow-right"></i>
+		</a>
+
+			
+		<!-- Inizio pagina -->
+		<!-- Background con parallax -->
+		<!-- Animazione testo inizio pagina -->
+		<div class="w3-display-middle">
+			<h1 class="w3-xxlarge w3-animate-top w3-animate-opacity w3-green w3-padding-large"><span class="w3-hide-small"> </span>WHITE VIKINGS</h1>
+			<hr class="w3-border-grey" style="margin:auto;width:40%">
+			<p class="w3-large w3-center w3-animate-top w3-animate-opacity w3-white w3-padding-large">Who are we?</p>
+		</div>
+
+		<main>
+		<!-- Contenuti -->
+		<!-- Container -->
+		<!DOCTYPE html>
+		<html lang="it">
+		<head>
+		    <meta charset="UTF-8">
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		    <style>
+		        /* Animazione di rotazione */
+		        @keyframes rotateText {
+		            0% {
+		                transform: rotate(0deg);
+		            }
+		            100% {
+		                transform: rotate(360deg);
+		            }
+		        }
+
+		        /* Animazione di vibrazione (saltellante) */
+		        @keyframes vibrateText {
+		            0% {
+		                transform: translateX(0);
+		            }
+		            25% {
+		                transform: translateX(-5px);
+		            }
+		            50% {
+		                transform: translateX(5px);
+		            }
+		            75% {
+		                transform: translateX(-5px);
+		            }
+		            100% {
+		                transform: translateX(0);
+		            }
+		        }
+
+		        /* Animazione di movimento da sinistra a destra */
+		        @keyframes moveFromLeft {
+		            0% {
+		                transform: translateX(-100%); /* Inizia fuori schermo a sinistra */
+		                opacity: 0;
+		            }
+		            50% {
+		                opacity: 1;
+		            }
+		            100% {
+		                transform: translateX(0); /* Si sposta alla posizione finale */
+		                opacity: 1;
+		            }
+		        }
+
+		        /* Applicare le animazioni: rotazione, vibrazione, movimento da sinistra */
+		        .rotate-vibrate-text {
+		            display: inline-block;
+		            animation: rotateText 5s infinite linear, 
+		                      vibrateText 1s infinite, 
+		                      moveFromLeft 10s ease-in-out forwards;
+		            animation-iteration-count: infinite; /* Ripete l'animazione all'infinito */
+		        }
+
+		        /* Testo principale */
+		        .rotate-vibrate-text h1 {
+		            color: #f0f0f0;
+		        }
+		    </style>
+		</head>
+		<body style="background-color: #333;">
+
+
+		<div class="w3-content w3-container w3-padding-64">
+		    <div class="jw-element-imagetext-text">
+		        <div style="text-align: center; font-family: 'Georgia', serif; line-height: 1.8; color: #f0f0f0;">
+		            <!-- Aggiunta della classe rotate-vibrate-text con animazioni -->
+		            <h1 class="rotate-vibrate-text" style="font-size: 2.5em; font-weight: bold; margin-bottom: 20px;">
+		                Benvenuti in <span style="color: #ea280c;">WHITE VIKINGS®</span>
+		            </h1>
+		            <h2 style="font-size: 1.8em; font-weight: 600; margin-bottom: 15px; color: #f0f0f0;">History</h2>
+		            <p style="font-size: 1.2em; margin-bottom: 10px; color: #f0f0f0;">
+		                <em>Siamo un team di esperti attivi dal lontano <span style="color: #ea280c; font-weight: bold;">2013</span>,</em>
+		            </p>
+		            <p style="font-size: 1.2em; margin-bottom: 10px; color: #f0f0f0;">
+		                <em>Questo clan è un clan secondario attivo per tutti coloro che vogliono fare war durante CWL</em>
+		            </p>
+		           		        </div>
+		    </div>
+
+	<!-- Sezione Staff -->
+<div class="w3-content w3-container w3-padding-64">
+    <h2 style="text-align: center; font-size: 2em; font-weight: bold; color: #f0f0f0; margin-bottom: 20px;">Il Nostro Staff</h2>
+    <p style="text-align: center; font-size: 1.2em; color: #f0f0f0;">
+        Siamo orgogliosi di presentarvi il cuore pulsante del nostro clan, un gruppo di leader straordinari che guidano il nostro viaggio verso il successo.
+    </p>
+    <div style="text-align: center; font-family: 'Georgia', serif; line-height: 1.8; margin-top: 20px;">
+        <!-- Nomi con contorno luminoso pulsante -->
+        <p class="staff-names" style="font-size: 1.5em; font-weight: bold; color: #fff; margin: 10px;">
+            <span class="neon-text">Wiz</span>, <span class="neon-text">Mattiavikingo</span>, <span class="neon-text">Giuseppe</span>,
+            <span class="neon-text">Sandstorm</span>, <span class="neon-text">Andrea</span>,
+            <span class="neon-text">Matteos</span>, <span class="neon-text">Tony</span>, <span class="neon-text">Ultra</span>
+        </p>
+    </div>
+</div>
+
+<style>
+    /* Animazione di luminosità pulsante */
+    @keyframes pulseGlow {
+        0% {
+            text-shadow: 0 0 5px #ea280c, 0 0 10px #ea280c, 0 0 20px #ff4500, 0 0 30px #ff6347, 0 0 40px #ff6347;
+        }
+        50% {
+            text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500, 0 0 30px #ff6347, 0 0 50px #ff7f50, 0 0 60px #ff7f50;
+        }
+        100% {
+            text-shadow: 0 0 5px #ea280c, 0 0 10px #ea280c, 0 0 20px #ff4500, 0 0 30px #ff6347, 0 0 40px #ff6347;
+        }
+    }
+
+    /* Contorno luminoso ai nomi dello staff */
+    .neon-text {
+        color: #ea280c;
+        display: inline-block;
+        animation: pulseGlow 2s infinite; /* Durata di 2 secondi in loop */
+    }
+
+    .staff-names span {
+        margin: 0 5px;
+    }
+
+</style>
+<!-- Pulsante Cliccabile -->
+<div style="text-align: center; margin-top: 20px;">
+    <a href="https://link.clashofclans.com/it?action=OpenClanProfile&tag=28RQ2R09P" 
+       class="w3-button w3-green w3-large w3-round w3-padding-large" 
+       style="font-size: 1.2em; text-decoration: none; color: white;">
+       Visita il Clan White Vikings
+    </a>
+</div>
+
+
+	</body>
+</html>

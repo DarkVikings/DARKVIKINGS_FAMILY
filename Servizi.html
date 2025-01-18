@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servizi</title>
+    <!-- Aggiungi il link a Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(to bottom, #d3d3d3, #a9a9a9);
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            position: relative;
+            padding: 20px;
+        }
+        h1 {
+            color: #222;
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+        .navigation-button {
+            position: absolute;
+            top: 20px;
+            background-color: transparent;
+            border: none;
+            color: #333;
+            font-size: 24px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        .navigation-button:hover {
+            color: #555;
+        }
+        .navigation-button.left {
+            left: 20px;
+        }
+        .navigation-button.right {
+            right: 20px;
+        }
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1000px;
+            margin-top: 20px;
+        }
+        .service {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            flex: 1 1 calc(50% - 40px);
+            max-width: calc(50% - 40px);
+        }
+        .service h2 {
+            color: #222;
+            margin-bottom: 10px;
+        }
+        .service img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .service p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .contact-button a {
+            text-decoration: none;
+        }
+        .contact-button button {
+            background-color: #555;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .contact-button button:hover {
+            background-color: #444;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Bottone per tornare alla home -->
+    <button class="navigation-button left" onclick="window.location.href='DarkVikings.html';">
+        <i class="fas fa-arrow-left"></i> Home
+    </button>
+
+    <!-- Bottone per andare alla pagina dei contatti -->
+    <button class="navigation-button right" onclick="window.location.href='Contatti.html';">
+        <i class="fas fa-arrow-right"></i> Contatti
+    </button>
+
+    <h1>Cosa offriamo</h1>
+
+    <div class="services-container">
+        <!-- Clan Lions -->
+        <div class="service">
+            <h2>Clan Lions</h2>
+            <img src="images/Lions.jpg" alt="Immagine del Clan Lions">
+            <p>Il Clan Lions(2 clan DARK VIKINGS) offre un'esperienza di gioco competitiva dove ogni giorno cerchiamo di allenarci con war/sfide.</p>
+            <div class="contact-button">
+                <a href="Lions.html">
+                    <button>Esplora Clan Lions</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Clan White Vikings -->
+        <div class="service">
+            <h2>Clan White Vikings</h2>
+            <img src="images/White.jpg" alt="Immagine del Clan White Vikings">
+            <p>Unisciti ai White Vikings durante CWL per combattere e divertirci insieme!</p>
+            <div class="contact-button">
+                <a href="White.html">
+                    <button>Esplora Clan White Vikings</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
